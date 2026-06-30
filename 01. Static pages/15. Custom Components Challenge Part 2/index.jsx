@@ -17,6 +17,26 @@ Part 2:
     "© 20xx <last name here> development. All rights reserved."
  */
 
+function Header (){
+    return(
+    <header className="header-wrap">
+        <img className="logo" src="./react-logo.png" alt="" />
+        <nav>
+            <ul className="nav-list">
+                <li>
+                    <a href="#">Pricing</a>
+                </li>
+                <li>
+                    <a href="#">About</a>
+                </li>
+                <li>
+                    <a href="#">Contact</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    )
+}
 
 function Page() {
     return (
@@ -29,6 +49,17 @@ function Page() {
     )
 }
 
+function Footer (){
+    return(
+        <footer>
+            <small>© 2026 Rodrigo development. All rights reserved.</small>
+        </footer>
+    )
+}
+
 root.render(
+    <>
+    <Header/>
     <Page />
+    </>
 )

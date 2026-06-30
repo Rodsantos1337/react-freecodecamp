@@ -1,9 +1,10 @@
 import { createRoot } from "react-dom/client"
+import {Fragment} from "react"
 const root = createRoot(document.getElementById("root"))
 
 function Page() {
     return (
-        <div>
+        <Fragment>
             <header>
                 <img src="react-logo.png" width="40px" alt="React logo" />
             </header>
@@ -17,7 +18,7 @@ function Page() {
             <footer>
                 <small>© 2024 Ziroll development. All rights reserved.</small>
             </footer>
-        </div>
+        </Fragment>
     )
 }
 

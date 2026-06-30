@@ -1,5 +1,6 @@
 import { createRoot } from "react-dom/client"
 const root = createRoot(document.getElementById("root"))
+import { Header } from "./Header"
 
 /**
  * Challenge:
@@ -8,14 +9,7 @@ const root = createRoot(document.getElementById("root"))
  *   "Pricing", "About", and "Contact"
  */
 
-function Header() {
-    return (
-        <header>
-            <img src="react-logo.png" width="40px" alt="React logo" />
-            
-        </header>
-    )
-}
+
 
 function MainContent() {
     return (
